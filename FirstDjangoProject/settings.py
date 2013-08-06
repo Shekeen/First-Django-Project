@@ -113,6 +113,7 @@ TEMPLATE_DIRS = (os.path.join(os.path.dirname(__file__), '..', 'templates').repl
 
 INSTALLED_APPS = (
     'django.contrib.auth',
+    'django.contrib.comments',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.sites',
